@@ -223,3 +223,31 @@ main .mostrador {
 .texto h3 {
     background-color: rgba(255, 255, 255, 0);
 }
+
+main form {
+    margin: 30px 0;
+    width: 70%;
+    height: auto;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 15px;
+}
+
+main form label{
+    display: block;
+}
+
+main form input, textarea{
+    width: 95%;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px 0;
+}
+main form a {
+    text-decoration: none;
+    color: blueviolet;
+    padding: 10px;
+    background-color: rgb(80, 11, 11);
+    border-radius: 20px;
+    margin: 15px 0;
+}
